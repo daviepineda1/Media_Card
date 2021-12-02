@@ -1,1 +1,22 @@
+img {
+  max-width: 100%;
+}
 
+.card {
+  max-width: 320px;
+  box-shadow: 1px 1px 4px 1px #888;
+  border-radius: 3px;
+  background-color: white;      
+}
+
+
+/*
+Set your font to a nice sans-serif font. Arial or Helvetica should work.
+If you give border-radius 4 values, it starts with the top left corner and goes clockwise. So 3px 0 0 3px would curve the top-left and bottom-left corner for example.
+For the grey colors #888 is a nice medium grey, and #ccc is a nice light grey
+Remember that the space between two elements is controlled by margin. The space between the contents of an element and the border of the element is controlled by padding. 
+You will need to add padding to many of the elements to get your component to look like the mockup.
+As you work on rounding the corners of the card, if you have issues with the top corners it is probably the corners of the image covering up the rounded corners of the box. 
+You can use the overflow property to fix this. 
+Adding overflow: hidden to the card will make any content that falls outside of that element be hidden (like the square corners of your image).
+*/
